@@ -1,0 +1,31 @@
+/* CSS files add styling rules to your content */
+/* We will use import to bring in a custom font. Google fonts are free and a good place to sart.*/
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+/* Since we are not defining rules for the "p" tag, it will follow the rules in body.*/
+body {
+  font-family: "Press Start 2P", cursive;
+  font-size: 15px;
+  background-color: #ffc0cb;
+  color:black;
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.nav-p{
+  display:inline-block;
+  padding-top:.3125rem;
+  padding-bottom:.3125rem;
+  margin-right:1rem;
+  font-size:1.25rem;
+  line-height:inherit;
+  white-space:nowrap;
+  color:black;
+
+}
+h1 {
+  font-style: italic;
+  color: #46b4e7;
+}
